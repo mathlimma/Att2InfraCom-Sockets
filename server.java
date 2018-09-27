@@ -19,7 +19,8 @@ public class server {
 
 			System.out.println(entrada.read());
 			System.out.println(entrada.read());
-
+			System.out.println(entrada.read());
+			
 			socket.close();
 
 		}catch(BindException e){

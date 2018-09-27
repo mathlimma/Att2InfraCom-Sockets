@@ -15,10 +15,11 @@ public class Client {
 
 			int num=10;
 			int num2=20;
+			int num3=20;
 
 			saida.write(num);
 			saida.write(num+num2);
-
+			saida.write(num+num2+num3);
 
 			socket.close();
 
